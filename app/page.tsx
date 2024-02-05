@@ -1,9 +1,3 @@
-import { Room } from "./Room";
-
 export default function Page() {
-	return (
-		<Room>
-			<h1>Main page</h1>
-		</Room>
-	);
+	return <h1 className="text-5xl text-white">Liveblocks Figma Clone</h1>;
 }
